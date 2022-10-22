@@ -1,0 +1,55 @@
+.navbar  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 32px;
+}
+
+.navbar h1 {
+  font-size: 48px;
+  color: red;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.navbar ul{
+  list-style: none;
+}
+
+.navbar li{
+  display: flex;
+  gap: 16px;
+}
+
+.navbar select{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.navbar option{
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+.navbar .select{
+  color: white;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 16px;
+  border-radius: 16px;
+}
+.navbar button{
+  display: box;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 16px;
+  height: 32px;
+  margin-top: 8px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}

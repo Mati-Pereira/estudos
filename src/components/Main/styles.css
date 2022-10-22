@@ -1,0 +1,61 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: white;
+  width: 50%;
+  margin: auto;
+  height: 70vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 48px;
+}
+
+.main h3 {
+  font-size: 32px;
+}
+
+.main p {
+  font-size: 16px;
+}
+
+.submit {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.submit input {
+  width: 100%;
+}
+
+.submit button {
+  white-space: nowrap;
+  height: 75px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-size: 32px;
+  padding: 0 16px;
+  border-radius: 0 8px 8px 0;
+}
+
+.submit input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.email {
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: -100px;
+ }
